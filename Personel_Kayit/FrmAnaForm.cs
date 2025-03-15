@@ -30,7 +30,7 @@ namespace Personel_Kayit
             TxtAd.Focus();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-AOEQHQU;Initial Catalog=PersonelVeriTabani;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=LAPTOP-JQ02U7VO;Initial Catalog=PersonelVeriTabani;Integrated Security=True");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -141,6 +141,11 @@ namespace Personel_Kayit
         {
             FrmGrafikler frg = new FrmGrafikler();
             frg.Show();
+        }
+
+        private void FrmAnaForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

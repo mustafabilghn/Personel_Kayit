@@ -41,7 +41,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(96, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 20);
+            this.label1.Size = new System.Drawing.Size(215, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı:";
             // 
@@ -50,7 +50,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(155, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 20);
+            this.label2.Size = new System.Drawing.Size(97, 37);
             this.label2.TabIndex = 1;
             this.label2.Text = "Şifre:";
             // 
@@ -60,7 +60,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(-4, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(595, 39);
+            this.label3.Size = new System.Drawing.Size(1164, 79);
             this.label3.TabIndex = 2;
             this.label3.Text = "Personel Takip Sistemi Giriş Paneli";
             // 
@@ -68,14 +68,14 @@
             // 
             this.TxtKullaniciAdi.Location = new System.Drawing.Point(213, 81);
             this.TxtKullaniciAdi.Name = "TxtKullaniciAdi";
-            this.TxtKullaniciAdi.Size = new System.Drawing.Size(146, 26);
+            this.TxtKullaniciAdi.Size = new System.Drawing.Size(146, 44);
             this.TxtKullaniciAdi.TabIndex = 3;
             // 
             // TxtSifre
             // 
             this.TxtSifre.Location = new System.Drawing.Point(213, 114);
             this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(146, 26);
+            this.TxtSifre.Size = new System.Drawing.Size(146, 44);
             this.TxtSifre.TabIndex = 4;
             this.TxtSifre.UseSystemPasswordChar = true;
             // 
@@ -91,10 +91,11 @@
             // 
             // FrmGiris
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AcceptButton = this.BtnGirisYap;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LawnGreen;
-            this.ClientSize = new System.Drawing.Size(592, 204);
+            this.ClientSize = new System.Drawing.Size(608, 213);
             this.Controls.Add(this.BtnGirisYap);
             this.Controls.Add(this.TxtSifre);
             this.Controls.Add(this.TxtKullaniciAdi);
@@ -102,9 +103,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "FrmGiris";
-            this.Text = "FrmGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Giriş";
             this.ResumeLayout(false);
             this.PerformLayout();
 

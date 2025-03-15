@@ -18,7 +18,7 @@ namespace Personel_Kayit
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-AOEQHQU;Initial Catalog=PersonelVeriTabani;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=LAPTOP-JQ02U7VO;Initial Catalog=PersonelVeriTabani;Integrated Security=True");
 
         private void FrmGrafikler_Load(object sender, EventArgs e)
         {
