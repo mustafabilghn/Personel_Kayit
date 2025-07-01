@@ -2,6 +2,13 @@
 
 This is a desktop application developed with **C# Windows Forms** and **SQL Server** that allows you to manage personnel records. It supports full CRUD functionality and provides insightful statistics and visualizations.
 
+## 📸 Images
+
+![Giris](Giris.png)
+![Form](Form.png)
+![Statistics](Statistics.png)
+![Graphs](Graph.png)
+
 ## 🧩 Features
 
 - ➕ Add new personnel
