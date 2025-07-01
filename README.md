@@ -4,10 +4,10 @@ This is a desktop application developed with **C# Windows Forms** and **SQL Serv
 
 ## 📸 Images
 
-![Giris](Giris.png)
-![Form](Form.png)
-![Statistics](Statistics.png)
-![Graphs](Graph.png)
+![Giris](screenshots/Giris.png)
+![Form](screenshots/Form.png)
+![Statistics](screenshots/Statistics.png)
+![Graphs](screenshots/Graph.png)
 
 ## 🧩 Features
 
